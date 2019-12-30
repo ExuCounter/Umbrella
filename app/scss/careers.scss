@@ -1,0 +1,273 @@
+.careers__content {
+	padding: 3.25em 5.5em 19.25em 7.5em;
+
+	position: relative;
+
+	background-color: $blue;
+}
+
+.careers__title {
+	margin: 0 0 1.35em;
+
+	color: $white;
+	font-family: "Poppins", sans-serif;
+	font-size: 2.6em;
+	font-weight: 500;
+	text-align: center;
+}
+
+.careers__desc {
+	margin: 0;
+
+	color: #c6c6c6;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.1em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.carousel-item--careers {
+	width: 100%;
+}
+
+.carousel--careers {
+	position: relative;
+	padding-top: 2.75em;
+	width: 90%;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.careers {
+	width: 100%;
+	margin-bottom: -25em;
+
+	position: relative;
+	top: -10em;
+}
+
+.carousel-caption--careers {
+	padding: 2.5em 3.25em;
+
+	position: static !important;
+
+	background-color: $white;
+	text-align: left !important;
+}
+
+.carousel-caption__title {
+	margin: 0 0 1.6em;
+
+	color: $black;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.carousel-caption__item {
+	margin: 0;
+	padding: 0 0 1.1em;
+
+	position: relative;
+
+	color: $green;
+	font-family: "Poppins", sans-serif;
+	font-size: .9em;
+	font-weight: 400;
+
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 2.6em;
+		height: 0.05em;
+
+		background-color: #000000;
+		opacity: .45;
+
+	}
+}
+
+.carousel-caption__desc {
+	margin: 2.06em 0 1.76em;
+
+	color: #b7b7b7;
+	font-family: "Poppins", sans-serif;
+	font-size: .85em;
+	font-weight: 400;
+}
+
+.img-fluid--careers {
+	width: 16em;
+
+	object-fit: cover;
+}
+
+.carousel_card {
+	width: 48%;
+	height: 28em;
+
+	display: inline-flex;
+	position: absolute;
+
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+	&:first-child {
+		left: 0;
+	}
+
+	&:last-child {
+		right: 0;
+	}
+}
+
+.carousel-inner--careers {
+	min-height: 32em;
+}
+
+.carousel-caption__social {
+	width: 100%;
+	max-width: 18em;
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.carousel-caption__social--fb, .carousel-caption__social--skype, .carousel-caption__social--pinterest, .carousel-caption__social--twitter {
+	&:before {
+		content: "";
+		position: relative;
+		display: block;
+		width: 2.85em;
+		height: 2.85em;
+
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+.carousel-caption__social--fb {
+	&:before {
+		background-image: url(../img/careers/facebook.png);
+	}
+}
+
+.carousel-caption__social--skype {
+	&:before {
+		background-image: url(../img/careers/skype.png);
+	}
+}
+
+.carousel-caption__social--pinterest {
+	&:before {
+		background-image: url(../img/careers/pinterest.png);
+	}
+}
+
+.carousel-caption__social--twitter {
+	&:before {
+		background-image: url(../img/careers/twitter.png);
+	}
+}
+
+.carousel-control-prev-icon--careers, .carousel-control-next-icon--careers {
+	width: 2.85em;
+	height: 2.85em;
+
+	border: 2px solid $light-gray;
+	border-radius: 50%;
+
+	background-size: 30%;
+	background-position: center center;
+}
+
+.carousel-control-prev--careers, .carousel-control-next--careers {
+	width: 2.85em;
+
+	top: auto;
+	transform: none;
+	bottom: -3em;
+	right: 50%;
+	left: auto;
+}
+
+.carousel-control-prev--careers {
+	transform: translateX(-1.4em);
+}
+
+.carousel-control-next--careers {
+	transform: translateX(4.4em);
+}
+
+@media screen and (max-width: 1500px) {
+	.carousel-caption__social--fb, .carousel-caption__social--skype, .carousel-caption__social--pinterest, .carousel-caption__social--twitter {
+		&:before {
+			width: 2em;
+			height: 2em;
+		}
+	}
+
+	.img-fluid--careers {
+		width: 15em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.carousel--careers {
+		top:auto;
+		transform: translateX(-50%);
+	}
+
+	.img-fluid--careers {
+		width: 14em;
+	}
+
+	.carousel-item--careers {
+		height: 56.9em;
+		margin-bottom: 15.3em;
+	}
+
+
+	.careers__content {
+		padding: 3.25em 5.5em;
+		top: 0;
+		min-height: 2em; 
+	}
+
+	.careers__desc {
+		max-height: 3em;
+		overflow: hidden;
+	}
+
+	.careers {
+		top: 0;
+		margin-bottom: 0;
+	}
+
+	.carousel_card {
+		width: 100%;
+		height: 26.6em;
+		display: inline-flex;
+
+		position: absolute;
+		box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+		&:first-child {
+			top: 0;
+		}
+
+		&:last-child {
+			bottom: 0;
+		}
+	}
+
+	.carousel-control-prev--careers, .carousel-control-next--careers {
+		bottom: 3em;
+	}
+	
+}

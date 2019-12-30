@@ -1,0 +1,9 @@
+.social {
+  padding: 100px 130px;
+  display: flex;
+  background-image: url(../img/home/bg-social.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.social__content {
+  width: 50%; }

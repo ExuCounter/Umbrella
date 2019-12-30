@@ -1,0 +1,11 @@
+.main-header {
+  min-height: 1280px;
+  padding: 50px calc(50% - 800px) 0;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.main-title {
+  height: 100px;
+  margin: 0 auto;
+  display: block; }

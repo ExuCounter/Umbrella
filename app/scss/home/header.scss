@@ -1,0 +1,125 @@
+.main-header {
+	min-height: 64em;
+	height: 100%;
+	padding: 2.5em 4.5em;
+
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.main-title {
+	width: 61.5em;
+	max-width: 1000px;
+	margin: 0 auto 2.35em;
+
+	display: block;
+}
+
+.main-title--mobile {
+	visibility: hidden;
+
+	color: $white;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 3.1em;
+	font-weight: 400;
+	text-align: center;
+}
+
+.main-desc {
+	margin: 0 0 5em;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 1.45em;
+	color: $green;
+	text-align: center;
+}
+
+.header__btn {
+	width: 12em;
+	border-radius: 1em;
+	border: 3px solid $green;
+	margin-right: 5em;
+
+	display: inline-block;
+
+	font-family: "Poppins", sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	color: $white;
+	line-height: 2.3;	
+	text-align: center;
+	text-decoration: none;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&:hover {
+		background-image: linear-gradient(to right, #a0e04b 0%, #cbee9c 100%);
+		color: $black;
+		text-decoration: none;
+	}
+}
+
+.header__btn__wrapper {
+	margin: 0 auto;
+
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (min-width: 1920px) {
+	.main-header {
+		padding: 2.5em calc(50% - 43.5em);
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.main-title {
+		max-width: 700px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-title {
+		max-width: 400px;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+
+	.main-header {
+		min-height: 35.7em;
+			position: relative;
+	}
+
+	.main-title {
+		display: none;
+	}
+
+
+	.main-title--mobile {
+		visibility: visible;
+	}
+
+	.header__btn__wrapper {
+		position: absolute;
+		bottom: -26em;
+		left: 50%;
+		transform: translateX(-50%);
+		margin: 4.3em auto;
+
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.header__btn {
+		margin: 0 0 3.85em;
+
+		color: $black;
+		font-size: 1.3em;
+	}
+}

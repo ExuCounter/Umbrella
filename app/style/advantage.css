@@ -1,0 +1,8 @@
+.advantage__list {
+  margin: 0;
+  padding: 0;
+  display: flex; }
+  .advantage__list li {
+    width: 460px;
+    min-height: 487px;
+    border-radius: 5px 0 0 5px; }
