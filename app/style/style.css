@@ -1270,11 +1270,11 @@ body {
     margin: 2.7em 0 0; } }
 
 .support {
-  padding: 4.5em 0;
+  padding: 3.5em 0;
   background-color: #122a58; }
 
 .support__title {
-  margin: 0 0 3.3em;
+  margin: 0 0 1.3em;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 2.4em;
@@ -1932,6 +1932,57 @@ input[type=submit] {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.header-title{
+    color: #FFF;
+    font-size: 5em;
+
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+
+    margin: 0.25em;
+    font-weight: 400;
+}
+
+.support-col{
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 3.5px 0px 0px 15px;
+  font-weight: 500;
+
+  color: #FFF;
+  font-family: 'Ubuntu', sans-serif;
+
+  background-color: #061230;
+  cursor: default;
+
+  border: solid 8px #061230;
+  transitions: all 0.2s;
+
+  align-items: center;
+  flex-grow: 1;
+
+}
+
+.support-col:hover{
+  background-color: transparent;
+  color: #FFF;
+
+}
+
+.support-col img{
+  width: 2.5em;
+  height: 2.5em;
+
+}
+
+.support-col p{
+  font-size: 1.5em;
+  line-height: 1.25em;
+
+  padding: 0.5em 0em 0em 0.5em;
+
+}
+
 @media screen and (max-width: 576px) {
   .contact__form {
     margin: 7.15em auto;
@@ -1939,4 +1990,21 @@ input[type=submit] {
   .contact__wrapper--btn {
     justify-content: space-between; }
   #file {
-    left: 3em; } }
+    left: 3em; }
+  .header-title{
+    display: none;
+
+  }
+  .support-col{
+    padding: 0px 0px 0px 1em;
+  }
+  .support-col img{
+    padding-right: 1em;
+    width: 3.75em;
+    height: 2.8em;
+
+  }
+  .support-col p{
+    padding: 1em 0em 0em 0.5em !important;
+
+  }}
