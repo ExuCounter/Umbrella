@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6465fed-eaf7-44c5-9e61-833890a93fbf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/adversting-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/adversting-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/careers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/content-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/content-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/events.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ppc-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/ppc-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/seo-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/seo-services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/services.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/training.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/training.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/video-services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/video-services.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577719118062</updated>
-      <workItem from="1577719119623" duration="5207000" />
+      <workItem from="1577719119623" duration="5268000" />
+      <workItem from="1577780537348" duration="4025000" />
     </task>
     <servers />
   </component>
@@ -59,7 +73,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
