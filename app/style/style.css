@@ -1566,7 +1566,7 @@ body {
 
 .careers {
   width: 100%;
-  margin-bottom: -25em;
+  margin-bottom: -19em;
   position: relative;
   top: -10em; }
 
@@ -2177,7 +2177,7 @@ body{
 }
 
 .meet-our-team{
-  padding: 6em 0em 4em;
+  padding: 6em 4em 4em;
 
 }
 
@@ -2263,6 +2263,10 @@ body{
   }
   .services__content__wrapper {
     padding-bottom: 7em;
+
+  }
+  .meet-our-team{
+    padding: 4em 1em 2em;
 
   }
 
