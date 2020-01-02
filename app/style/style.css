@@ -2098,7 +2098,7 @@ input[type=submit] {
 }
 
 .footer-img img{
-  max-width: 100px;
+  max-width: 135px;
 
 }
 
@@ -2175,7 +2175,7 @@ body{
 }
 
 .meet-our-team{
-  padding: 2em 0em;
+  padding: 6em 0em 4em;
 
 }
 
@@ -2217,7 +2217,7 @@ body{
   font-size: 1.8em;
   font-family: 'Poppins', sans-serif;
 
-  margin-top: 2em;
+  margin-top: 1.5em;
 
 }
 
@@ -2236,5 +2236,19 @@ body{
     height: 40%;
 
   }
+
+}
+
+.team-member-email{
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+
+  padding-top: 0.75em;
+
+}
+
+.team-member-email a{
+  text-decoration: underline;
+  color: #000;
 
 }
