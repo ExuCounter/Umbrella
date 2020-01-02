@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/app/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/careers.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/img/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/meet-our-team.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/meet-our-team.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/services.html" afterDir="false" />
@@ -57,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1577719118062</updated>
       <workItem from="1577719119623" duration="5268000" />
-      <workItem from="1577780537348" duration="15520000" />
+      <workItem from="1577780537348" duration="16017000" />
+      <workItem from="1577988085942" duration="3024000" />
     </task>
     <servers />
   </component>

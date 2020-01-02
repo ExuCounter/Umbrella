@@ -349,7 +349,7 @@ body {
     transform: translateY(-50%); } }
 
 .main-header {
-  min-height: 52em;
+  min-height: 56em;
   height: 100%;
   padding: 2.5em 4.5em;
   background-image: url(../img/bg.jpg);
@@ -1041,6 +1041,7 @@ body {
 
 .services__content__wrapper {
   margin: 0 auto;
+  padding-bottom: 13em;
   width: 28.8em; }
 
 .services__btn {
@@ -1087,7 +1088,8 @@ body {
 
 @media screen and (max-width: 1170px) {
   .services__content__wrapper {
-    width: 95%; } }
+    width: 95%;
+    padding-bottom: 11em;} }
 
 .seo-services-page .services__content__wrapper {
   margin-left: 30px; }
@@ -2179,7 +2181,20 @@ body{
 
 }
 
+.tax-calculator{
+  padding: 6em 0em 4em;
+
+}
+
 .meet-our-team__title{
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+  font-size: 3.5em;
+
+}
+
+.tax-calculator__title{
   font-family: 'Poppins', sans-serif;
   text-align: center;
 
@@ -2234,6 +2249,20 @@ body{
   .team-member img{
     width: 50%;
     height: 40%;
+
+  }
+  .footer-img{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+  }
+  .footer-img img{
+    max-width: 90px;
+
+  }
+  .services__content__wrapper {
+    padding-bottom: 7em;
 
   }
 
