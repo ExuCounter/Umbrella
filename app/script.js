@@ -1,13 +1,16 @@
 const homeVideo = document.getElementById('home-video');
+const formSubmit = document.getElementById('form-submit');
 
-        homeVideo.addEventListener('click', function(){
-            if(!(homeVideo.currentTime > 0 && !homeVideo.paused && !homeVideo.ended && homeVideo.readyState > 2)){
-                homeVideo.play();
-            }
-            else{
-                homeVideo.pause();
-            }
-        })
+homeVideo.addEventListener('click', function(){
+    if(!(homeVideo.currentTime > 0 && !homeVideo.paused && !homeVideo.ended && homeVideo.readyState > 2)){
+        homeVideo.play();
+    }
+    else{
+        homeVideo.pause();
+    }
+});
+
+
 
 // const TOGGLE_PRICE_AREA = document.querySelector('.pricing__btns');
 // const TOGGLE_PRICE_M = document.getElementById('priceMounth');
