@@ -327,7 +327,7 @@ body {
   height: 1.1em;
   background-image: url(../img/home/email.png); }
 
-#phone:before {
+.phone:before {
   width: 1.1em;
   height: 1.1em;
   background-image: url(../img/home/phone.png); }
@@ -465,7 +465,7 @@ body {
 .main-nav ul li {
   box-sizing: border-box;
   border-bottom: 2px solid transparent;
-  margin: 10px 1.4em 0em;
+  margin: 10px 0.7em 0em;
   cursor: pointer;
   padding-bottom: 0.45em; }
 .main-nav ul li a {
