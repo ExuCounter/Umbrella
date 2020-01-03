@@ -25,6 +25,10 @@ rateSelect.addEventListener('input', ()=>{
         MAXIMUM_ESTIMATE = 38;
         MAXIMUM_RATE = 125;
         perFieldRange.value = '38';
+        if(rateRangeField.value >= 125){
+            rateRangeField.value = '125';
+
+        }
         rateRange.setAttribute('max', '125');
 
     }
