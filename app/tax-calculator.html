@@ -54,48 +54,52 @@
         <section class="tax-calculator">
             <h1 class="meet-our-team__title">Contractor tax calculator</h1>
             <div class="tax-widget mt-5 mb-5">
-                <div class="calc-days calc-row d-flex justify-content-between">
-                    <span id="time-span">Hours per week:</span>
-                    <input type="text" class="input-only-number input-md form-control" id="per-field">
-                </div>
-                <div class="calc-rate calc-row mt-4">
-                    <div class="d-flex justify-content-between mb-4">
-                        <div class="d-flex">
-                            <span>RATE (£):</span>
-                            <select class="form-control input-md ml-3" id="rate-select">
-                                <option value="hour">per hour</option>
-                                <option value="day">per day</option>
-                            </select>
+                <div class="row tax-widget-wrap">
+                    <div class="col-12" id="calc-col">
+                        <div class="calc-days calc-row d-flex justify-content-between">
+                            <span id="time-span">Hours per week:</span>
+                            <input type="text" class="input-only-number input-md form-control" id="per-field">
                         </div>
-                        <div class="input-group mb-2 input-md">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">£</div>
+                        <div class="calc-rate calc-row mt-4">
+                            <div class="d-flex justify-content-between mb-4">
+                                <div class="d-flex">
+                                    <span>RATE (£):</span>
+                                    <select class="form-control input-md ml-3" id="rate-select">
+                                        <option value="hour">per hour</option>
+                                        <option value="day">per day</option>
+                                    </select>
+                                </div>
+                                <div class="input-group mb-2 input-md">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">£</div>
+                                    </div>
+                                    <input type="text" class="form-control input-only-number input-md" id="rate-range-field">
+                                </div>
                             </div>
-                            <input type="text" class="form-control input-only-number input-md" id="rate-range-field">
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <input type="range" min="0" max="125" step="1" value="0" id="rate-range">
-                    </div>
-                </div>
-                <div class="calc-rate calc-row mt-4">
-                    <div class="d-flex justify-content-between mb-4">
-                        <span>MONTHLY EXPENSES (£):</span>
-                        <div class="input-group mb-2 input-md">
-                            <div class="input-group-prepend">
-                                <div class="input-group-text">£</div>
+                            <div class="d-flex justify-content-center">
+                                <input type="range" min="0" max="125" step="1" value="0" id="rate-range">
                             </div>
-                            <input type="text" pattern="" class="form-control input-only-number input-md" id="expense-field">
+                        </div>
+                        <div class="calc-rate calc-row mt-4">
+                            <div class="d-flex justify-content-between mb-4">
+                                <span>MONTHLY EXPENSES (£):</span>
+                                <div class="input-group mb-2 input-md">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">£</div>
+                                    </div>
+                                    <input type="text" pattern="" class="form-control input-only-number input-md" id="expense-field">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <input type="range" min="0" max="2000" step="1" value="0" id="expense-range">
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-5">
+                            <button class="btn btn-danger btn-submit">
+                                GET YOUR RESULTS NOW
+                            </button>
                         </div>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <input type="range" min="0" max="2000" step="1" value="0" id="expense-range">
-                    </div>
-                </div>
-                <div class="d-flex justify-content-center mt-5">
-                    <button class="btn btn-danger btn-submit">
-                        GET YOUR RESULTS NOW
-                    </button>
                 </div>
             </div>
         </section>

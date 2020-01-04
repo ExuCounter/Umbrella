@@ -5,7 +5,11 @@ const rateRange = document.getElementById('rate-range'),
       perFieldRange = document.getElementById('per-field'),
       expenseRange = document.getElementById('expense-range'),
       rateSelect = document.getElementById('rate-select'),
-      timeSpan = document.getElementById('time-span');
+      timeSpan = document.getElementById('time-span'),
+      resultsCol = document.getElementById('results-col'),
+      calcCol = document.getElementById('calc-col'),
+      submitBtn = document.querySelector('.btn-submit'),
+      taxWidgetWrap = document.querySelector('.tax-widget-wrap');
 
 let MAXIMUM_ESTIMATE = 38,
     MAXIMUM_RATE = 125;
@@ -103,3 +107,50 @@ for( let item of onlyNumberInputs ){
    })
 
 }
+
+/* SUBMIT BTN CLICK */
+
+submitBtn.addEventListener('click', ()=>{
+    calcCol.setAttribute('class', 'col-7');
+   taxWidgetWrap.insertAdjacentHTML('beforeend', `
+       <div class="col-5" id="results-col">
+            <div class="d-flex calc-row justify-content-center">
+                <span class="results-span">Results</span>
+            </div>
+            <div class="calc-total-results mt-4">
+                <div class="calc-totals">
+                    ANNUAL INCOME
+                    <p id="annual_income">£0.00</p></div>
+                <div class="calc-totals">
+                    ANNUAL EXPENSES
+                    <p id="annual_expense">£0.00</p></div>
+            </div>
+            <div class="calc-total-results mb-4 mt-3">
+                <table style="width:100%">
+                    <tbody>
+                    <tr>
+                        <th></th>
+                        <th>Yearly</th>
+                        <th>Weekly</th>
+                    </tr>
+                    <tr>
+                        <td>With ICS Limited Company</td>
+                        <td id="net_pay">£0.00</td>
+                        <td id="net_pay_weekly">£0.00</td>
+                    </tr>
+                    <tr>
+                        <td>With ICS Umbrella Company</td>
+                        <td id="umbrella_pay">£0.00</td>
+                        <td id="umbrella_pay_weekly">£0.00</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-earn-today">
+                    Earn more money today
+                </button>
+            </div>
+        </div>
+   `)
+});

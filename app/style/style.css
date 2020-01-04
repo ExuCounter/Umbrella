@@ -2391,6 +2391,41 @@ input[type=range]:focus::-ms-fill-upper {
 
 }
 
+@media screen and (max-width: 1400px){
+    .tax-widget{
+        padding: 0em 11em;
+
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .tax-widget{
+        padding: 0em 9em;
+
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .tax-widget{
+        padding: 0em 7em;
+
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .tax-widget{
+        padding: 0em 5em;
+
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .tax-widget{
+        padding: 0em 3em;
+
+    }
+}
+
 .calc-row span {
   font-weight: 400;
   font-size: 24px;
@@ -2422,5 +2457,99 @@ input[type=range]:focus::-ms-fill-upper {
   font-family: "Oswald", sans-serif;
   border: none;
   padding: 13px 76px;
+
+}
+
+.results-span{
+    position: relative;
+
+}
+
+.results-span::after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0%;
+    width: 100%;
+    bottom: -5px;
+    background-color: #ccc;
+
+}
+
+.calc-total-results{
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+
+    justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
+
+    margin-bottom: 20px;
+}
+
+.calc-total-results p{
+    font-size: 22px;
+    font-weight: bold;
+
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.calc-totals{
+    width: 50%;
+
+}
+
+.tax-widget th{
+    font-weight: lighter;
+    border: 1px solid #CCC;
+    padding: 5px 10px;
+
+    text-align: left;
+
+}
+
+.tax-widget tr td:nth-child(2){
+    font-size: 1.25em;
+    padding-right: 10px;
+
+}
+
+.tax-widget  tr td:nth-child(3){
+    font-size: 1.25em;
+    padding-right: 10px;
+
+}
+
+.tax-widget td{
+    border: 1px solid #CCC;
+    padding: 5px;
+
+    text-align: left;
+
+}
+
+.calc-totals:first-of-type {
+    border-right: 1px solid #a30046;
+}
+
+.btn-earn-today{
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+
+    color: #fff;
+    background: rgba(0,0,0,0.2);
+
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+
+}
+
+.btn-earn-today:hover{
+    background-color: #a30046;
+    color: #FFF;
 
 }
