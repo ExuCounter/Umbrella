@@ -110,10 +110,9 @@ for( let item of onlyNumberInputs ){
 
 /* SUBMIT BTN CLICK */
 
-submitBtn.addEventListener('click', ()=>{
+submitBtn.addEventListener('click', ()=> {
     calcCol.setAttribute('class', 'col-7');
-   taxWidgetWrap.insertAdjacentHTML('beforeend', `
-       <div class="col-5" id="results-col">
+    resultsCol.innerHTML = `
             <div class="d-flex calc-row justify-content-center">
                 <span class="results-span">Results</span>
             </div>
@@ -151,6 +150,5 @@ submitBtn.addEventListener('click', ()=>{
                     Earn more money today
                 </button>
             </div>
-        </div>
-   `)
+   `;
 });

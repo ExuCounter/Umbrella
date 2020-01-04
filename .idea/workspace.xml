@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b6465fed-eaf7-44c5-9e61-833890a93fbf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ir35.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/ir35.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scripts/input-range-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/input-range-calc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/tax-calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/tax-calculator.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,7 +54,7 @@
       <workItem from="1577988085942" duration="3732000" />
       <workItem from="1577996362099" duration="1251000" />
       <workItem from="1578043608232" duration="11554000" />
-      <workItem from="1578165505634" duration="3897000" />
+      <workItem from="1578165505634" duration="4672000" />
     </task>
     <servers />
   </component>
